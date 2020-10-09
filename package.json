@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/hussamkhan6/personal-budget#readme",
   "dependencies": {
+    "axios": "^0.20.0",
+    "chart.js": "^2.9.3",
+    "cors": "^2.8.5",
     "express": "^4.17.1"
   }
 }
