@@ -41,9 +41,7 @@ export class HomepageComponent implements OnInit {
   }
 
   createChart() {
-    //var ctx = document.getElementById('myChart').getContext('2d');
     var ctx = document.getElementById('myChart');
-
     var myPieChart = new Chart(ctx, {
         type: 'pie',
         data: this.dataSource
